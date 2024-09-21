@@ -1,0 +1,23 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,6312.199999999999,75746.40,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+Reduced_Cost_Estimate.csv,US East (Ohio),,VPN Connection,0,681.8,8181.60,USD,,"Working days per month (22), Number of Site-to-Site VPN Connections (2), Number of subnet associations (4)"
+Reduced_Cost_Estimate.csv,US East (Ohio),,Network Address Translation (NAT) Gateway,0,33.08,396.96,USD,,Number of NAT Gateways (1)
+Reduced_Cost_Estimate.csv,US East (Ohio),,Public IPv4 Address,0,14.6,175.20,USD,,"Number of In-use public IPv4 addresses (2), Number of Idle public IPv4 addresses (2)"
+Reduced_Cost_Estimate.csv,US East (Ohio),,Amazon EC2 ,0,1177.344,14128.13,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 6), Advance EC2 instance (t4g.2xlarge), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+Reduced_Cost_Estimate.csv,US East (Ohio),,Application Load Balancer,0,1038.43,12461.16,USD,,Number of Application Load Balancers (1)
+Reduced_Cost_Estimate.csv,US East (Ohio),,Network Load Balancer,0,892.43,10709.16,USD,,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (50 GB per hour), Average number of new TCP connections (500 per second), Average TCP connection duration (1 seconds), Processed bytes per NLB for UDP (50 GB per hour), Average number of new UDP Flows (10000 per second), Average UDP Flow duration (1 seconds), Processed bytes per NLB for TLS (100 GB per hour), Average number of new TLS connections (1000 per second), Average TLS connection duration (1 seconds)"
+Reduced_Cost_Estimate.csv,US East (Ohio),,Amazon CloudFront,0,215.14,2581.68,USD,,"Data transfer out to internet (2048 GB per month), Data transfer out to origin (2048 GB per month), Number of requests (HTTPS) (100000 per month)"
+Reduced_Cost_Estimate.csv,US East (Ohio),,S3 Standard,0,196,2352.00,USD,,"S3 Standard storage (5000 GB per month), PUT, COPY, POST, LIST requests to S3 Standard (10000000), GET, SELECT, and all other requests from S3 Standard (10000000), Data returned by S3 Select (10000 GB per month), Data scanned by S3 Select (10000 GB per month)"
+Reduced_Cost_Estimate.csv,US East (Ohio),,Data Transfer,0,92.16,1105.92,USD,,"DT Inbound: Internet (100 TB per month), DT Outbound: Internet (1 TB per month)"
+Reduced_Cost_Estimate.csv,US East (Ohio),,Amazon RDS for MySQL,0,1971.2240000000002,23654.69,USD,,"Storage amount (100 GB), Storage for each RDS instance (General Purpose SSD (gp2)), Nodes (2), Instance type (db.m5.4xlarge), Utilization (On-Demand only) (80 %Utilized/Month), Deployment option (Single-AZ), Pricing strategy (OnDemand)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
